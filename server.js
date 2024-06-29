@@ -35,9 +35,9 @@ app.use("/api/order", orderRouter)
 // app.use(express.static(path.join(__dirname, "/frontend/dist")));
 
 
-// app.get("/", (req, res)=>{
-//     res.send("Api working")
-// })
+app.get("/", (req, res)=>{
+    res.send("Api working")
+})
 
 
 // app.get("*", (req, res)=>{
